@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A-001</title>
+  <style>
+    :root {
+      --bg: #f4f1eb;
+      --fg: #111;
+      --muted: rgba(17, 17, 17, 0.62);
+    }
+
+    * {
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+    }
+
+    main {
+      width: min(560px, 100%);
+      text-align: center;
+    }
+
+    .id {
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 500;
+      line-height: 1.08;
+    }
+
+    .meta {
+      margin-top: 18px;
+      font-size: clamp(16px, 2vw, 19px);
+      line-height: 1.7;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="id">A-002</div>
+    <h1>Mania is over Depression is back</h1>
+    <div class="meta">
+      3,5 cm x 3,5 cm<br>
+      Metal Cast<br>
+      2026 | Berlin
+    </div>
+  </main>
+</body>
+</html>
